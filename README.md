@@ -4,7 +4,7 @@ Mount a local device containing multiple squashfs images (like in https://www.po
 Boot parameters (also known as cheatcodes) are used to affect the booting process of system.  You can use these parameters to disable desired kinds of hardware detection, start  from a specific location, load additional modules, etc.
 
 ## dev_name=
-device to mount
+device to mount: dev_name=/dev/sr0
 ## sfs=
 squashfs file extention (default: pfs)
 ## image_dir=
